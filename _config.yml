@@ -1,13 +1,13 @@
-baseurl: /starter
+baseurl: /edmonton
 permalink: pretty
 future: true
 markdown: kramdown
 paginate: 5
-repo: starter
+repo: edmonton
 github_org: maptime
 maptime:
   chapter: MaptimeYEG
-  twitter: TwitterHandle
+  twitter: MaptimeYEG
   #disqus: YOUR DISQUS USERNAME
 
 gems:
