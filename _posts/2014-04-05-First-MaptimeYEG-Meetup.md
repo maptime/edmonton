@@ -1,8 +1,8 @@
 ---
 layout: event
 category: event
-title: Meetup event
-rsvp: http://procatinator.com/
+title: Introduction to Leaflet Webmaps - First MaptimeYEG event
+rsvp: twitter.com/MaptimeYEG
 ---
 
-MaptimeYEG will be meeting for the first time at the Edmonton Public Library Idylwylde Branch in the program room on Tuesday April 05th at 7:00 PM. The event subject is TBD.
+MaptimeYEG will be meeting for the first time at the [Edmonton Public Library Idylwylde Branch in Bonnie Doon] (https://www.epl.ca/locations/EPLIDY/) in the program room on Tuesday April 05th from 7:00-9:00 PM. We will be hosting an interactive presentation on how to make basic web maps using Leaflet. Bring your own laptop!! The subject matter will be suitable for beginners.
