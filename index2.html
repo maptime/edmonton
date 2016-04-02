@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Devin's Leaflet map!</title>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <style>
+        #map{ width: 900px; height: 500px; }
+    </style>
+</head>
+<h1>Devins Map</h1>
+<body>
+<div id="map"></div>
+<script>
+    var map = L.map('map').setView([51.505, -0.09], 13);
+    var CartoDB_DarkMatter = L.tileLayer('http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png', {
+	   attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
+	   subdomains: 'abcd',
+	   maxZoom: 19
+    }).addTo(map);
+</script>
+</body>
+</html>
